@@ -1,0 +1,188 @@
+/*body{
+    background-color: #FFB6B9;
+}
+h1{
+    text-align: center;
+}
+.row1{
+   display: flex;
+}
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+}
+#Html{
+    text-align: center;
+    border: 3px solid black;
+    width:1400px;
+    height:150px;
+    background-color: #FFE0E0;
+}
+#css{
+    text-align: center;
+    border: 2px solid black;
+    width:1400px;
+    height:150px;
+    background-color: #FFE0E0;
+}
+#C-lang{
+    text-align: center;
+    border: 3px solid black;
+    width:1400px;
+    height:150px;
+    background-color: #FFE0E0;
+}
+#java{
+    text-align: center;
+    border: 3px solid black;
+    width:1400px;
+    height:150px;
+    background-color: #FFE0E0;
+}
+#Ms-word{
+    text-align: center;
+    border: 3px solid black;
+    width: 1400px;
+    height:150px;
+    background-color: #FFE0E0;
+}
+#Ms-excel{
+    text-align: center;
+    border: 3px solid black;
+    width:1400px;
+    height:150px;
+    background-color: #FFE0E0;
+}
+#power-point{
+    text-align: center;
+    border: 3px solid black;
+    width:630px;
+    height:150px;
+    background-color: #FFE0E0;
+}
+#Html i {
+    color: orange;
+}
+
+#css i {
+    color: blue;
+}
+
+#C-lang i {
+    color: black;
+}
+
+#java i {
+    color: red;
+}
+
+#Ms-word i {
+    color: blue;
+}
+
+#Ms-excel i {
+    color: green;
+}
+
+#power-point i {
+    color: orangered;
+}*/
+
+
+body {
+    background-color: #FFB6B9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+#Html, #css, #C-lang, #java, #Ms-word, #Ms-excel, #power-point,#Ms-access,#Java-script, #problem-solving {
+    background-color: #FFEFEF;
+    border-radius: 16px;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#Html:hover, #css:hover, #C-lang:hover, #java:hover, #Java-script:hover, #Ms-word:hover, #Ms-excel:hover, #Ms-access:hover, #power-point:hover,#problem-solving:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: #fff5f5;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+/* Icon Styling */
+i {
+    font-size: 35px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+#Html i {
+    color: orange;
+}
+
+#css i {
+    color: blue;
+}
+
+#C-lang i {
+    color: black;
+}
+
+#java i {
+    color: red;
+}
+
+#Ms-word i {
+    color: #2B579A; 
+}
+
+#Ms-excel i {
+    color: #217346; 
+}
+
+#power-point i {
+    color: #D24726; 
+}
+
+#Java-script i {
+    color: #F0DB4F; 
+}
+
+#Ms-access i {
+    color: #A4373A; 
+}
+
+#problem-solving i {
+    color: #FFCC00; 
+}
+
